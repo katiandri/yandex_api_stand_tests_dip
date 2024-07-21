@@ -1,3 +1,5 @@
+# Андрианова Екатерина, 18-я когорта — Финальный проект. Инженер по тестированию плюс
+
 import configuration
 import requests
 import data
