@@ -36,6 +36,10 @@
 - К проекту добавь файлы .gitignore и README.MD .
 - Логи лежат в файле error.log в папке /var/www/backend/logs.
 
+**Примечание:**
+- Для запуска тестов должны быть установлены пакеты pytest (pip install pytest) и requests (pip install requests)
+- Для запуска теста необходимо в файл configuration.py скопировить актуальный URL (Например, https://df6beb13-d6a3-4d4d-8bde-ddc60095c991.serverhub.praktikum-services.ru/) в файле sendor_stand_request.py нажать кнопку "Run" или Shift+F10
+
 
 
 
