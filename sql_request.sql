@@ -2,7 +2,7 @@
 
 SELECT c.login, COUNT(o.id) AS "deliveryCount"
    FROM "Couriers" AS c
-   LEFT JOIN "Orders" AS o ON c.id = o."courierId"
+   INNER JOIN "Orders" AS o ON c.id = o."courierId"
    WHERE o."inDelivery" = true
    GROUP BY c.login;
 
@@ -13,3 +13,4 @@ SELECT track,
         WHEN "inDelivery" = true THEN 1
   ELSE 0 END AS status
       FROM "Orders";
+
